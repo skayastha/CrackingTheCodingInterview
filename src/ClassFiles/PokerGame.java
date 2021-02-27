@@ -1,3 +1,6 @@
+package ClassFiles;
+
+import ClassFiles.CardGame;
 import Interface.ICards;
 
 public class PokerGame extends CardGame implements ICards {

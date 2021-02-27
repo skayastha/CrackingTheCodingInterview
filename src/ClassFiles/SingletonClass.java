@@ -1,3 +1,5 @@
+package ClassFiles;
+
 public class SingletonClass {
     private static SingletonClass _instance=null;
     private String name;
