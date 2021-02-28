@@ -1,5 +1,8 @@
 package ClassFiles;
 
+/**
+ * Class is used to implement the Creator pattern
+ */
 public class CardGame {
 
     private  Integer numberOfCards;

@@ -1,5 +1,7 @@
 package TestCases;
 
+import ClassFiles.CardGame;
+import ClassFiles.GameType;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -18,7 +20,15 @@ class CardGameTest {
 
     @Test
     void createCardGame() {
+        //Arrange
+        CardGame game = CardGame.createCardGame(GameType.Poker);
+        game.setNameOfGame("Poker");
 
+        //Act
+        String gameName = game.getNameOfGame();
+
+        //Assert
+        assertEquals("Poker",gameName);
     }
 
     @Test
