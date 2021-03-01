@@ -1,17 +1,18 @@
-import javax.smartcardio.CardChannel;
-import java.util.HashMap;
+import ClassFiles.BlackJackGame;
+import ClassFiles.CardGame;
+import ClassFiles.GameType;
 
 public class mainClass {
 
     public static void main (String[] args)
     {
 //        System.out.println("Hello World!");
-//        LearningArrayList object = new LearningArrayList();
+//        ClassFiles.LearningArrayList object = new ClassFiles.LearningArrayList();
 //        object.FirsExampleOfArrayList();
 //
 //        HashMap<Integer,String> sample = new HashMap<Integer,String>();
 //
-//        LearningHashMap hashMap = new LearningHashMap(sample);
+//        ClassFiles.LearningHashMap hashMap = new ClassFiles.LearningHashMap(sample);
 //
 //        hashMap.AddToHashmap(1,"Summit");
 //
@@ -21,7 +22,7 @@ public class mainClass {
 //        value = sample.get(1);
 //        System.out.println(value);
 //
-//        SingletonClass sampleSingleton = SingletonClass.get_instance();
+//        ClassFiles.SingletonClass sampleSingleton = ClassFiles.SingletonClass.get_instance();
 //        String singletonValue = sampleSingleton.getName();
 //        System.out.println(singletonValue);
 
