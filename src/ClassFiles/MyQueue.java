@@ -52,11 +52,31 @@ public class MyQueue<T> {
 
     public static void main(String[] args)
     {
-        MyQueue<Integer> myQueue = new MyQueue<Integer>();
-        myQueue.first = new QueueNode<Integer>(1);
-        myQueue.last = myQueue.first;
+//        MyQueue<Integer> myQueue = new MyQueue<Integer>();
+//        myQueue.first = new QueueNode<Integer>(1);
+//        myQueue.last = myQueue.first;
+//
+//        myQueue.enqueue(2);
+//        int value = myQueue.dequeue();
 
-        myQueue.enqueue(2);
-        int value = myQueue.dequeue();
+        ReverseString("madam");
+    }
+    public static void ReverseString(String A)
+    {
+        char[] charArray = A.toCharArray();
+        StringBuilder sb = new StringBuilder();
+
+        for (int i = charArray.length -1; i>=0;i--)
+        {
+            sb.append(charArray[i]);
+        }
+
+        if(sb.toString().equals(A))
+        {
+            System.out.println("Yes");
+        }
+        else
+            System.out.println("No");
     }
 }
+
