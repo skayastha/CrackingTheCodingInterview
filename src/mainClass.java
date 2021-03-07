@@ -1,6 +1,4 @@
-import ClassFiles.BlackJackGame;
-import ClassFiles.CardGame;
-import ClassFiles.GameType;
+import ClassFiles.Arrays;
 
 public class mainClass {
 
@@ -25,10 +23,12 @@ public class mainClass {
 //        ClassFiles.SingletonClass sampleSingleton = ClassFiles.SingletonClass.get_instance();
 //        String singletonValue = sampleSingleton.getName();
 //        System.out.println(singletonValue);
-
-        BlackJackGame cardGame = (BlackJackGame) CardGame.createCardGame(GameType.BlackJack);
-        cardGame.setNameOfGame("BlackJack");
-        System.out.println(cardGame.getNameOfGame());
+//
+//        BlackJackGame cardGame = (BlackJackGame) CardGame.createCardGame(GameType.BlackJack);
+//        cardGame.setNameOfGame("BlackJack");
+//        System.out.println(cardGame.getNameOfGame());
+        Arrays a = new Arrays();
+        a.permutation("abc");
     }
 
 }
